@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade - 2</title>
+    <title>Calculadora Grand Line</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <div class="container">
+        <svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="45" fill="#333" />
+            <circle cx="50" cy="45" r="25" fill="white" />
+            <rect x="25" y="65" width="50" height="15" rx="5" fill="white" />
+            <circle cx="40" cy="40" r="5" fill="black" />
+            <circle cx="60" cy="40" r="5" fill="black" />
+            <path d="M 20 20 L 40 40 M 80 20 L 60 40 M 20 80 L 40 60 M 80 80 L 60 60" stroke="white" stroke-width="5" />
+            <path d="M 10 50 Q 50 10 90 50" fill="none" stroke="#fbc02d" stroke-width="8" /> 
+        </svg>
+
+        <h1>Navegação Aritmética</h1>
+        
+        <input type="number" id="num1" placeholder="Primeiro Número">
+        <input type="number" id="num2" placeholder="Segundo Número">
+        <br><br>
+        <button onclick="calcular()">CALCULAR TESOURO</button>
+
+        <div id="resultados">
+            Aguardando coordenadas...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
