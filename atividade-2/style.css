@@ -1,17 +1,17 @@
 /* Cores base: Bege Mapa, Vermelho Luffy, Amarelo Chapéu */
 body {
-    background-color: #f4e4bc; 
+    background-color: #00ccff; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    color: #3e2723;
+    color: #ec0909;
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgb(253, 0, 0);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
