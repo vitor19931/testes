@@ -1,0 +1,92 @@
+/* Fonte amigável e moderna, com um toque tecnológico */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+/* Container Principal - Inspirado no pelo do Tails */
+.formulario {
+    background: linear-gradient(135deg, #ffcc00 0%, #ff9900 100%);
+    border: 4px solid #ffffff; /* Detalhes brancos (luvas e focinho) */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 450px;
+    margin: 20px auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: #333333;
+}
+
+/* Títulos do Formulário */
+.formulario h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #cc7a00; /* Sombra laranja escuro */
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Estrutura do Form */
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Campos de Digitação (Inputs) */
+.formulario input {
+    padding: 12px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Foco no Input - O azul tecnológico entra em cena */
+.formulario input:focus {
+    border-color: #00aeff; 
+    box-shadow: 0 0 10px rgba(0, 174, 255, 0.6);
+}
+
+/* Botão - Azul do céu (Voando) / Engenhocas do Tails */
+.formulario button {
+    background-color: #00aeff;
+    color: white;
+    border: 3px solid #ffffff;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover do Botão: Efeito de decolagem com as duas caudas */
+.formulario button:hover {
+    background-color: #007acc;
+    transform: translateY(-4px); /* Botão "levanta" */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Linha separadora */
+.formulario hr {
+    border: none;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 25px 0;
+}
+
+/* Estilização da Lista de Usuários */
+.formulario ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Itens da Lista (Os usuários cadastrados) */

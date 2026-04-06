@@ -1,0 +1,44 @@
+/* Fonte mais bruta e pesada, combinando com a atitude do Shadow */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* Estilização do Footer (Tema Shadow) */
+.footer {
+    background: linear-gradient(180deg, #111111 0%, #2b0000 100%); /* Preto para vermelho-escuro */
+    border-top: 5px solid #cc0000; /* A clássica listra vermelha do Shadow */
+    box-shadow: 0 -5px 20px rgba(204, 0, 0, 0.5); /* Brilho vermelho projetado para cima */
+    color: #e0e0e0;
+    text-align: center;
+    padding: 30px 20px;
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilização do Texto do Rodapé */
+.footer p {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    
+    /* Sombra escura + leve brilho vermelho */
+    text-shadow: 
+        2px 2px 0px #000000, 
+        0 0 10px rgba(255, 0, 0, 0.6);
+        
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito Hover: Chaos Blast / Fúria do Shadow */
+.footer:hover p {
+    color: #ffffff;
+    transform: scale(1.05);
+    /* O brilho vermelho fica muito mais intenso */
+    text-shadow: 
+        3px 3px 0px #000000, 
+        0 0 15px #ff0000, 
+        0 0 30px #cc0000;
+}
