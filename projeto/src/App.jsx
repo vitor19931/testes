@@ -1,21 +1,16 @@
-import './App.css'
+import { useState } from 'react'
 import Header from './components/Header'
-import AdicionarUsuario from './components/AdicionarUsuario'
+import AdicionarTime from './components/AdicionarUsuario'
+import Footer from './components/Footer'
 
-function App() {
+export default function App() {
+  const [times, setTimes] = useState([])
+
   return (
     <>
-      <div className='app'>
-        <Header />
-        <main>
-        <AdicionarUsuario />
-        </main>
-        <footer />
-        </div>
-      </>
+      <Header />
+      <AdicionarTime times={times} setTimes={setTimes} />
+      <Footer />
+    </>
   )
 }
-
-export default App
-
-

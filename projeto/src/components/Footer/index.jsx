@@ -4,9 +4,9 @@ export default function Footer() {
     return (
         <footer className='footer'>
             <p>
-                &copy; {new Date().getFullYear}
-            <br />
-            VITINHO COMEDOR DE PPK
+                &copy; {new Date().getFullYear()} Temporada Oficial
+                <br />
+                VAR DA VÁRZEA - RUMO À TAÇA! 🏆
             </p>
         </footer>
     )
