@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -9,8 +8,8 @@ function App() {
 
   return (
     <>
-      <h1>Projeto de Vitor</h1>
-      </>
+      <h1>Meu projeto</h1>
+    </>
   )
 }
 
